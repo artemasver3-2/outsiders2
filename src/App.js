@@ -1,7 +1,9 @@
 import './App.css';
 import Header from './header';
-import Body from './body'
-
+import Headliner from './headliner';
+import Blurbs from './blurbs'
+import MeetGreet from './meet&greet'
+import Footer from './footer'
 
 
 function App() {
@@ -9,7 +11,13 @@ function App() {
     <div className="App">
      <Header />
     
-     <Body />
+     <Headliner />
+
+     <Blurbs />
+
+     <MeetGreet />
+
+     <Footer />
     </div>
   );
 }
