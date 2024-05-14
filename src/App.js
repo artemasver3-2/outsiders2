@@ -1,23 +1,15 @@
 import './App.css';
-import Header from './header';
-import Headliner from './headliner';
-import Blurbs from './blurbs'
-import MeetGreet from './meet&greet'
-import Footer from './footer'
-
+import { Routes, Route } from 'react-router-dom'
+import AlexDrake from './alexdrake';
+import Home from './home';
 
 function App() {
   return (
     <div className="App">
-     <Header />
-    
-     <Headliner />
-
-     <Blurbs />
-
-     <MeetGreet />
-
-     <Footer />
+     <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/alexDrake" element={<AlexDrake />}/>
+     </Routes>
     </div>
   );
 }

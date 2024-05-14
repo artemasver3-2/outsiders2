@@ -3,7 +3,7 @@ import Card from "./card";
 function Blurbs() {
 
 return (
-    <div className="main-body">
+    <div id="blurbs" className="main-body">
        <Card
        title="INSERT BLURBS HERE MAYBE"
        subtitle="blllluuuuurrrbbbbbbsssss"

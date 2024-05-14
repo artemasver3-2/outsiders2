@@ -1,11 +1,10 @@
 import Card from "./card";
 import CharacterCard from "./charactercard";
-import { Route } from "react-router-dom";
 
 function MeetGreet() {
 
 return (
-    <div className="main-body">
+    <div id="meetGreet" className="main-body">
       <Card
          title="Meet the Outsiders"
          subtitle="who, maybe not where, or why... definitely not why."
@@ -15,6 +14,7 @@ return (
       <CharacterCard 
          name="Alex Drake"
          info="Alex Drake is the proclaimed leader of this rag-tag group of adventures, a bit broody for my taste, but effective and capable, nonetheless. Born in New Ordis, he is native to Ordsia, even owning a home in the town itself. His father being a pretty prominent member of the council or New Ordis means that he inherited his leadership skills honestly, not that we have any doubt... well not that we have that many doubts. While he's certaintly known for his handling of the group, we also know him by his dedication to the latest fashion."
+         link="/alexDrake"
          />
 
       <CharacterCard 

@@ -3,7 +3,7 @@ import Card from "./card";
 function Headliner() {
 
 return (
-    <div className="main-body">
+    <div id="news" className="main-body">
         <Card 
         title="Inside The Outsiders" 
         subtitle="who, what, and why?" 
