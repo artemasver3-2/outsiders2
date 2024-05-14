@@ -1,5 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kristi&family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kristi&family=Lexend:wght@100..900&family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 
 
 .App {
@@ -61,15 +62,47 @@ body {
   flex-flow: row wrap;
 }
 
-.main-body-titles {
-  color: white;
-  font-size: 3.5rem;
-  padding: 1%;
-  font-family: Bebas Neue, sans-serif;
-  letter-spacing: 2px;
+.main-card { 
   display: flex;
+  width: 80%;
+  height: 80%;
+  padding-bottom: 2%;
+  display: flex;
+  flex-flow: row wrap;
   justify-content: center;
-  margin-top: -2rem;
-  letter-spacing: 7px;
+  border: 2px solid #62AB37;
 }
 
+.title { 
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+    color: white;
+    font-size: 3rem;
+    padding: 1%;
+    font-family: Bebas Neue, sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 2rem;
+}
+
+.subtitle {
+  color: white;
+  font-size: 2.5rem;
+  font-family: Kristi;
+  color: #62AB37;
+  height: 10%;
+  width: 40%;
+  margin-top: 6rem;
+  margin-left: -17rem;
+}
+
+.info {
+  width: 75%;
+  color: white;
+  font-size: 1rem;
+  text-align: justify;
+  padding: 1%;
+  font-family: Lexend, sans-serif;
+  letter-spacing: 2px; 
+  margin-top: -15rem;
+}
